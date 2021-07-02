@@ -1,5 +1,6 @@
-main {
-	display:none;
+::-webkit-scrollbar {
+	display: none
+	;
 }
 
 body {
@@ -25,31 +26,42 @@ button {
 #cima {
 	position: absolute;
 	margin-top: 10px;
+	padding: 0;
+	margin-right:0;
 
 	}
 
 
 #marquee1 {
-	margin: 4px;
+	margin: 2px;
+	margin-right:0;
+	padding: 0;
+	
+
 }
 
 
 #marquee1 li{
 	display: inline;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 400;
 	padding-right: 200px;
 	
 }
 
-.portfolio{
+/*.portfolio{
 	position: absolute;
 	width:100%;
 	margin-top: 860px;
-}
+	padding: 0;
+	margin-right: 0;
+	background-color: aliceblue;
+}*/ 
+
 h1{
-	font-size: 22px;
+	margin-bottom: 2vw;
+	font-size: 15px;
 	font-weight: 400;
 	text-align: center;
 }
@@ -65,4 +77,13 @@ a:visited {
 a:hover {
 	color: black;
 
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+
+
+	
 }

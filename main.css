@@ -61,6 +61,8 @@ button {
 
 h1{
 	margin-bottom: 2vw;
+	padding-right: 20px;
+	padding-left: 20px;
 	font-size: 15px;
 	font-weight: 400;
 	text-align: center;
@@ -75,8 +77,12 @@ a:visited {
 }
 
 a:hover {
-	color: black;
+	color:#858585;
 
+}
+
+a:active {
+	color: white;
 }
 
 footer {
